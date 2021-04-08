@@ -1,5 +1,6 @@
 body{
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
 }
 #main{
     background-color:rgba(224, 224, 224, 0.541);
@@ -36,4 +37,35 @@ body{
  
 #img-caption{
     text-align: center;
+}
+
+#tribute-info{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 600px;
+}
+
+ul{
+    margin: 0px;
+    line-height: 40px;
+}
+
+h4{
+    text-align: center;
+    padding: 50px;
+    margin: 0px;
+}
+
+#prime-saying{
+    letter-spacing: 0.5px;
+}
+#__prime-saying{
+    margin: 0px;
+}
+
+#more-info{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 30px;
+    font-size: large;
 }
